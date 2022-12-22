@@ -1,5 +1,5 @@
 body {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     background-color: blanchedalmond;
     margin-left: 30px;
 }
@@ -25,6 +25,8 @@ a {
 }
 
 img {
+    border: dashed cornflowerblue 5px;
+    padding: 3px;
     border-radius: 5%;
     box-shadow:
     2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
@@ -33,5 +35,6 @@ img {
     22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
     41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
     100px 100px 80px rgba(0, 0, 0, 0.07);
+    margin-left: 15px;
 }
 
